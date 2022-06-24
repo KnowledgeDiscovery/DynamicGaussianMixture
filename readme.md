@@ -1,5 +1,6 @@
-# The code for the paper "Dynamic Gaussian Mixture based Deep Generative Model ForRobust Forecasting on Sparse Multivariate Time Series" accepted by AAAI 2021
+# DynamicGaussianMixture
 
+The `DynamicGaussianMixture` repository contains code for dynamic gaussian mixture based deep generative model for robust forecasting on sparse multivariate time series. The method implemented here is described in [this paper](https://ojs.aaai.org/index.php/AAAI/article/view/16145).
 
 ## Prerequisites:
 install conda, pytorch, matplotlib, pandas, scikit-learn tensorboardX, torchdiffeq (see the instructions in https://github.com/rtqichen/torchdiffeq)
@@ -105,4 +106,20 @@ Run demo code:
 
 ```
 python3 train.py --dataset MIMIC3 --model DGM2_O -b 3000 --epochs 200 --GPU --GPUID 0 --max_kl 6 --use_gate --wait_epoch 60
+```
+
+## Citation
+
+If you find the code in this respository useful for your research, please cite our paper:
+
+```
+@inproceedings{wu2021dynamic,
+  title={Dynamic Gaussian mixture based deep generative model for robust forecasting on sparse multivariate time series},
+  author={Wu, Yinjun and Ni, Jingchao and Cheng, Wei and Zong, Bo and Song, Dongjin and Chen, Zhengzhang and Liu, Yanchi and Zhang, Xuchao and Chen, Haifeng and Davidson, Susan B},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={35},
+  number={1},
+  pages={651--659},
+  year={2021}
+}
 ```
