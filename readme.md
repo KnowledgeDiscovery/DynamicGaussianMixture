@@ -1,6 +1,6 @@
 # DynamicGaussianMixture
 
-The `DynamicGaussianMixture` repository contains code for dynamic gaussian mixture based deep generative model for robust forecasting on sparse multivariate time series. The method implemented here is described in [this paper](https://ojs.aaai.org/index.php/AAAI/article/view/16145).
+The `DynamicGaussianMixture` repository contains data and code for dynamic gaussian mixture based deep generative model for robust forecasting on sparse multivariate time series. The method implemented here is described in [this paper](https://ojs.aaai.org/index.php/AAAI/article/view/16145).
 
 ## Prerequisites:
 install conda, pytorch, matplotlib, pandas, scikit-learn tensorboardX, torchdiffeq (see the instructions in https://github.com/rtqichen/torchdiffeq)
